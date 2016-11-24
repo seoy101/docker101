@@ -27,5 +27,5 @@ apt-get install -y -q apt-transport-https ca-certificates && apt-key adv --keyse
 apt-get update -y
 apt-cache policy docker-engine
 
-#apt-get install -y -q docker-engine=1.11.2-0~trusty
+apt-get install -y -q docker-engine=1.11.2-0~trusty
 #apt-mark hold docker-engine
