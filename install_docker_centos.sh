@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# CentOS 6 & RHEL 6 : https://yum.dockerproject.org/repo/main/centos/6
+# CentOS 7 & REEL 7 : https://yum.dockerproject.org/repo/main/centos/7
+
+# Fedora 20 : https://yum.dockerproject.org/repo/main/fedora/20
+# Fedora 21 : https://yum.dockerproject.org/repo/main/fedora/21
+# Fedora 22 : https://yum.dockerproject.org/repo/main/fedora/22
+
 cat > /etc/yum.repos.d/docker.repo << '__EOF__'
 
 [dockerrepo]
